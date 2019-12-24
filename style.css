@@ -103,3 +103,17 @@ nav ul {
 .hero h3 {
   padding: 5rem;
 }
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 45%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding: 2rem;
+  }
+}
