@@ -54,6 +54,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #27394e;
+}
+
 /* Nav Section With Hero */
 
 .main-head {
@@ -115,6 +119,7 @@ nav ul {
   background-position: center;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .locations-head {
@@ -134,6 +139,21 @@ nav ul {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.moving-cloud-1 {
+}
+
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 /* Media Querys */
