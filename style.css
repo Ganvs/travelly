@@ -170,6 +170,32 @@ nav ul {
   }
 }
 
+/* Banefits section */
+
+.benefits-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.card {
+  background: lightcoral;
+}
+
+.cards img {
+  height: 100px;
+}
+
 /* Media Querys */
 @media screen and (max-width: 932px) {
   html {
