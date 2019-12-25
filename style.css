@@ -190,6 +190,9 @@ nav ul {
 
 .card {
   background: lightcoral;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
 }
 
 .cards img {
