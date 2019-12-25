@@ -188,6 +188,12 @@ nav ul {
   padding: 1rem;
 }
 
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
 .card {
   background: lightcoral;
   flex: 1 1 25rem;
