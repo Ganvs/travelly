@@ -62,7 +62,7 @@ button:hover {
 /* Nav Section With Hero */
 
 .main-head {
-  background: #131c27;
+  background: rgba(19, 28, 39, 0.95);
   color: white;
   position: sticky;
   top: 0px;
